@@ -44,6 +44,13 @@ Temel amaç, bağımlı ve bağımsız değişken arasındaki ilişkiyi ifade ed
 ![image](https://user-images.githubusercontent.com/73706248/198124537-f69d719d-1455-45d3-af04-4dcdab8219d5.png)
 
 ### Çoklu Doğrusal Regresyon: 
+Doğrusal basit regresyonun bağımsız değişken sayısı birden fazla olan versiyonudur. Yani çoklu regreson denkleminde yanıt değişkenimiz olan bağımlı değişkeni etkileyen birden fazla bağımsız değişken vardır.
+Kullanımı ve mantığı basit doğrusal regresyon ile benzerdir. Sadece birden fazla değişken vardır.
+<br>
+Çoklu doğrusal regresyon denklemi aşağıdaki gibidir:
+<br>
+![image](https://user-images.githubusercontent.com/73706248/198126326-b82fabb8-7d31-4e6f-9e8c-e0d7a83932f2.png)
+
 
 
 ### Polinom Regresyon:
