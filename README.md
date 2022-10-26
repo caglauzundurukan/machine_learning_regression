@@ -123,6 +123,35 @@ lk yöntem olan hepsini birden modele dahil et yöntemini kuramlara dayalı geli
 
 NOT: Bu yöntemler arasında en çok tercih edilen iki yöntem **Geriye Doğru Eleme** ve **İleriye Doğru Seçme**'dir.
 
+# Regresyon Analizi Nedir? 
+Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenmesi için kullanılan yöntemdir. Üç adımda gerçekleşir:
+<br>
+### Hipotez oluşturulur:
+Bir regresyon analizi yapmak için, ilişkili olduğunu düşündüğünüz iki değişkeni seçmeniz gerekir. Mümkün olduğu kadar çok veri toplayarak ilişkileri hakkında hipotezinizi oluşturun. Reklam ve satış ilişkisi söz konusu olduğunda, daha doğru bir analiz için bir yıl boyunca oluşan tüm finansal verileri toplayabilirsiniz.
+### Grafik oluşturulur:
+Bir sonraki adım, verilerinizin grafiğini çıkarmaktır. İki veri seti ile doğrusal regresyon için temel bir çizgi grafiği oluşturabilirsiniz. Bir değişken X ekseninde, diğeri Y ekseninde çizilir. Bir elektronik tabloya girdiğinizde, değişkenler arasındaki korelasyonu görebilirsiniz. Düz bir çizgi varsa, bu pozitif bir korelasyon gösterir.
+### Sonuçlar Analiz Edilir:
+Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korelasyonu görebilirsiniz. Bu rakamları bir araya getirmek, iki veri seti arasındaki tarihsel ilişkiyi göstererek modelin gelecekte nasıl görüneceğini tahmin etmenize olanak tanır. Geçmişte, çevrimiçi reklamcılık ve satışlar arasında olumlu bir ilişki varsa, gelecek yıl için bir tahmin oluşturmak için yüzdeleri bir modele ekleyebilirsiniz. 
+<br>
+# Regresyon Analizi Kullanım Alanları Nelerdir?
+### Tahmin
+İşletmelerde regresyon analizinin en yaygın kullanımı, gelecekteki fırsatları ve tehditleri tahmin etmektir. Örneğin talep analizi, bir müşterinin satın alma olasılığı yüksek olan şeylerin miktarını tahmin eder.
+### The Capital Asset Pricing Model (CAPM)
+Bir varlığın öngörülen getirisi ile ilgili piyasa risk primi arasındaki bağlantıyı kuran The Capital Asset Pricing Model (CAPM), doğrusal regresyon modeline dayanır. Ayrıca, kurumsal getirileri ve operasyonel performansı tahmin etmek için finansal analistler tarafından finansal analizde sıklıkla kullanılır.
+Bir hisse senedinin beta katsayısı, regresyon analizi kullanılarak hesaplanır. Beta, toplam piyasa riskiyle ilgili getiri oynaklığının bir ölçüsüdür.
+### Rekabet Karşılaştırma 
+Bir şirketin finansal performansını rakip şirket ile karşılaştırmak için kullanılabilir. Ayrıca iki firmanın hisse senedi fiyatları arasındaki ilişkiyi belirlemek için de kullanılabilir ve hangi yönlerin satışlarını etkilediğini belirlemede firmaya yardımcı olabilir.
+### Güvenilir Kaynak
+Birçok işletme ve üst düzey yönetici, daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
+
+
+
+
+
+
+
+
+
 
 
 
