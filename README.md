@@ -29,6 +29,28 @@ Denetimli öğrenmenin sınıflandırma ve regresyon olarak iki alt yönteme ayr
 Regresyonun tahmin etmek istediğimiz duruma ve elimizdeki verilere göre değişebilen birçok yöntemi ve çeşidi vardır. Uygun olmayan regresyon yöntemlerinin kullanılması hatalı ve yanıltıcı sonuçların elde edilmesine neden olabilmektedir bu yüzden bu yöntemler arasından en doğru olanı seçmek önemli bir detaydır. Bunu şöyle düşünebiliriz: bizden bir probleme yönelik bir kod yazmamız isteniyor bunu 100 satırda da 50 satırda da yazabilir ve aynı sonuca ulaşabiliriz burada bu 50 satırlık farkı sağlayan şey algoritmamızdır. Regresyonda da en doğru tahmin için en doğru yöntemi seçmeye önem göstermeliyiz.
 ![image](https://user-images.githubusercontent.com/73706248/198112255-0cb572b0-9f9b-4bff-9596-836b5a30f6d0.png)
 
+### Doğrusal Regresyon: 
+Doğrusal regresyon, iki değişken arasındaki doğrusal ilişkinin bir doğru denklemi olarak tanımlanıp, değişkenin değerlerinden biri bilindiğinde diğeri hakkında tahmin yapılmasını sağlar.
+<br>
+Doğrusal regresyon, basit doğrusal regresyon ve çoklu doğrusal regresyon olarak iki başlık altında incelenir:
+<br>
+**Basit doğrusal regresyon,** yanıt değişkeni ile tek bir açıklayıcı değişken arasındaki doğrusal ilişkiyi açıklar. Eğer tek bir yanıt değişkeni ve birden fazla açıklayıcı değişken arasındaki doğrusal veya eğrisel bir ilişki tanımlanmak istenirse, **ilişki çoklu doğrusal regresyon** ile incelenir (Okur, 2009; Weisberg, 2005).
+<br>
+### Polinom Regresyon:
+Bir bağımlı ve birden fazla bağımsız değişken arasında polinomyal bir artış söz konusu ise bu algoritmayı kullanırız. 
+<br>
+Polinom Regresyon Formülü: 
+**Y = a + bX + cX²**
+<br>
+### Karar Ağacı Regresyonu:
+Karar Ağaçları Algoritmaları hem sınıflandırma da hem de regresyonda kullanılır. Regresyon için kullanılan algoritmayı şöyle açıklayabiliriz; Bağımsız değişkenleri bilgi kazancına göre aralıklara ayırır. Tahmin esnasında bu aralıktan bir değer sorulduğunda cevap olarak bu aralıktaki (eğitim esnasında öğrendiği) ortalamayı verir. Belli aralıklarda istenilen değerler için aynı sonuçları ürettiğinden kesikli bir modeldir. # 
+<br>
+### Lojistik Regresyon: Lojistik regresyon, istatistikte kullanılan bir model oluşturma tekniği olup iki ya da daha fazla sınıfta ifade edilebilen kesikli verilerde yanıt değişkeni (Y) için bir model oluşturma tekniğidir.
+<br>
+Örneğin, web sitesi ziyaretçinizin alışveriş sepetindeki ödeme düğmesine tıklayıp tıklamayacağını tahmin etmek istediğinizi varsayalım. Lojistik regresyon analizi, web sitesinde harcanan zaman ve sepetteki ürün sayısı gibi geçmiş ziyaretçi davranışlarına bakar. Geçmişte, ziyaretçiler sitede beş dakikadan fazla zaman geçirdiyse ve sepete üçten fazla ürün eklediyse ödeme düğmesine tıkladıklarını belirler. Lojistik regresyon işlevi bu bilgiyi kullanarak daha sonra yeni bir web sitesi ziyaretçisinin davranışını tahmin edebilir.
+
+
+
 
 
 
