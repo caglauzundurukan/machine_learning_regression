@@ -8,7 +8,7 @@
 **Bağımlı Değişken:** Anlamaya veya tahmin etmeye çalıştığımız değişkendir.  <br>
 **Bağımsız Değişken:** Analizi veya hedef değişkeni etkileyen ve değişkenlerin hedef değişkenle ilişkisi hakkında bize bilgi veren faktörlerdir.
 
-## Makine Öğrenmesinde Regresyon
+# Makine Öğrenmesinde Regresyon
 Makine öğrenmesinde regresyon ise kısaca makinenin veri setini ezberlememesi için oluşturulan algoritmadır. İstenen sonuç makinenin ezberlemesi değil **“öğrenmesi”** yani tutarlı tahmin yeteneğine sahip olmasıdır.
 <br> <br>
 Yöntem olarak bir eğitim kümesi ve eğitim kümesinden makine öğrenmesi metotları ile bir model elde edilip bu model üzerinden yeni gelen veriler tahmin edilmeye çalışılır.
@@ -59,7 +59,7 @@ Kullanımı ve mantığı basit doğrusal regresyon ile benzerdir. Sadece birden
 ![image](https://user-images.githubusercontent.com/73706248/198126326-b82fabb8-7d31-4e6f-9e8c-e0d7a83932f2.png)
 <br>
 **Çoklu doğrusal regresyon kullanımına birkaç örnek:**
-<br> <br>
+<br> 
 Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.br
 <br> <br>
 Ev satmak için en iyi zamanı tahmin etmeye yardımcı olacak bir model oluşturmak isteyen bir emlak uzmanısınız. Evleri maksimum satış fiyatından satmak istersiniz, ancak satış fiyatını birden fazla faktör etkileyebilir. Bu değişkenler, diğer faktörlerin yanı sıra evin yaşını, mahalledeki diğer evlerin değerini, devlet okulu sisteminin öğrenci performansına ilişkin nicel ölçümlerini ve yakındaki parkların sayısını içerir.Evlerin maksimum satış fiyatını tahmin etmek için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz. Bu faktörlerden herhangi biri katsayı değerleri açısından değişirse değişkenleri ayarlayabilirsiniz.
@@ -81,6 +81,55 @@ Lojistik regresyon, istatistikte kullanılan bir model oluşturma tekniği olup 
 Örneğin, web sitesi ziyaretçinizin alışveriş sepetindeki ödeme düğmesine tıklayıp tıklamayacağını tahmin etmek istediğinizi varsayalım. Lojistik regresyon analizi, web sitesinde harcanan zaman ve sepetteki ürün sayısı gibi geçmiş ziyaretçi davranışlarına bakar. Geçmişte, ziyaretçiler sitede beş dakikadan fazla zaman geçirdiyse ve sepete üçten fazla ürün eklediyse ödeme düğmesine tıkladıklarını belirler. Lojistik regresyon işlevi bu bilgiyi kullanarak daha sonra yeni bir web sitesi ziyaretçisinin davranışını tahmin edebilir.
 <br>
 Ridge Regresyon, Lasso Regresyon, Sıralı Regresyon gibi daha birçok regresyon türü de bulunmaktadır.
+# Regresyon Modeli Kurulumunda Beş Metod
+Lineer modelde iki farklı değişkenimiz vardı: ilki bağımlı değişken (hedef değişken – y) diğeri ise bağımsız değişken(ler)(predictors – x). Gerçek hayatta bir hedef değişkene etki eden birçok belirleyici değişken vardır. Örnek olarak şirket karı hedef değişken olsun. Karı etkileyen birçok faktör vardır. Peki biz kardaki değişkenliği açıklamak için bu faktörlerden hangilerini modelimize dahil edeceğiz? Hepsini mi? Kabaca seçtiğimiz 3-5 tanesini mi? En iyi sonucu vereni mi? En iyi sonucu hangisi verir? Bunu nasıl ölçeriz?
+<br> <br>
+Her bağımsız değişkeni modele dahil edersek model arap saçına dönebilir ve modelin anlaşılırlığı azalabilir. Peki bu karmaşaya nasıl bir çözüm bulunabilir? Yaygın olarak kullanılan beş yöntem ile bağımsız değişkenleri eleyerek sağlıklı modeller oluşturabiliyoruz:
+![image](https://user-images.githubusercontent.com/73706248/198132912-62ae2361-f0bd-47c5-9933-e0bcd966bc92.png)
+### Bağımsız değişkenlerin hepsini birden modele dahil etmek (All-in):
+lk yöntem olan hepsini birden modele dahil et yöntemini kuramlara dayalı geliştirilen modellerde kullanırız. Daha önce benzer alanda bir çok ampirik çalışma yapılmıştır ve bazı kavramlar arasındaki ilişkiler defalarca farklı örneklem üzerinde kanıtlanmıştır. Yani modele dahil edilen bağımsız değişkenlerin bağımlı değişkene etki ettiğine dair yeterince kanıt vardır. 
+### Geriye doğru eleme (Backward Elimination):
+-Anlamlılık düzeyi belirlenir. Mesela; p < 0.05.
+
+-Bir önceki yöntemde olduğu gibi tüm değişkenler modele dahil edilir.
+
+-Her bir bağımsız değişkenin anlamlılık düzeyi incelenir. Eğer anlamlılık düzeyi model için belirlenenden daha büyük ise bu bağımsız değişken modelden çıkarılır. Eğer birden fazla var ise bu işlem en büyük p değerine sahip olana uygulanır. Şayet bütün p değerleri sınır değerden küçük ise model tamam demektir.
+
+-Çıkarılan her bir değişkenden sonra model tekrar kurulur (eğitilir) ve üçüncü adım tekrar edilir.
+
+-Tüm bağımsız değişkenlerin p değeri eşik altında kalana kadar, başka bir deyişle bağımsız değişken ile ilişkisi istatistiksel anlamlı olana kadar üç ve dört tekrar edilir.
+### İleriye doğru seçme (Forward Selection):
+-Anlamlılık düzeyi belirlenir.
+
+-Bağımlı değişken (y) ile tüm bağımsız değişkenler (X) tek tek basit regresyona sokulur. Aralarından en düşük p değerine sahip olan seçilir.
+
+-Bu en düşük değerli bağımsız değişken ile diğer bağımsız değişkenlerden oluşturulan modeller ayrı ayrı ikili olarak çoklu regresyona sokulur. En düşük p değerine sahip olan ikili seçilir.
+
+-En düşük p değerli ikili ile kalan bağımsız değişkenlerden üçlü kombinasyonlar oluşturulur ve modeller tek tek regresyona sokulur. p değeri anlamsız çıkana kadar üçüncü ve dördüncü adımlar tekrarlanır.
+### İki yönlü eleyerek seçme (Bidirectional Elimination):
+-Anlamlılık düzeyi belirlenir.
+
+-İleri doğru seçme yönteminde olduğu gibi anlamlılık düzeyi altında kaldığı sürece modele yeni değişkenler ilave edilir.
+
+-Geriye doğru eleme yönteminin tüm adımları uygulanır.
+
+-Yeni bir değişken ekleyemeyene ve eski değişkenlerden birini çıkaramayana kadar adım 2 ve 3 tekrarlanır.
+### Sonuçları karşılaştırma (Score comparision)
+-Uyum indeksi için kriter belirlenir.
+
+-Olası tüm modeller denenir.
+
+-En iyi uyum indeksine sahip olan seçilir.
+
+NOT: Bu yöntemler arasında en çok tercih edilen iki yöntem **Geriye Doğru Eleme** ve **İleriye Doğru Seçme**'dir.
+
+
+
+
+
+
+
+
 
 ## KAYNAKÇA
 https://dergipark.org.tr/en/download/article-file/187511 <br>
