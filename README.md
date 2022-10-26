@@ -36,6 +36,16 @@ Doğrusal regresyon, basit doğrusal regresyon ve çoklu doğrusal regresyon ola
 <br>
 **Basit doğrusal regresyon,** yanıt değişkeni ile tek bir açıklayıcı değişken arasındaki doğrusal ilişkiyi açıklar. Eğer tek bir yanıt değişkeni ve birden fazla açıklayıcı değişken arasındaki doğrusal veya eğrisel bir ilişki tanımlanmak istenirse, **ilişki çoklu doğrusal regresyon** ile incelenir (Okur, 2009; Weisberg, 2005).
 <br>
+### Basit Doğrusal Regresyon:
+Basit doğrusal regresyon; bağımsız değişken (X)ile bağımlı değişken (Y)deki değişimi açıklamayı, bağımsız değişkendeki bir birimlik değişimin bağımlı değişken üzerindeki etkisini ölçmeyi amaçlar.
+<br>
+Temel amaç, bağımlı ve bağımsız değişken arasındaki ilişkiyi ifade eden doğrusal fonksiyonu bulmaktır.
+<br>
+![image](https://user-images.githubusercontent.com/73706248/198124537-f69d719d-1455-45d3-af04-4dcdab8219d5.png)
+
+### Çoklu Doğrusal Regresyon: 
+
+
 ### Polinom Regresyon:
 Bir bağımlı ve birden fazla bağımsız değişken arasında polinomyal bir artış söz konusu ise bu algoritmayı kullanırız. 
 <br>
