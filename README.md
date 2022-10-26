@@ -42,6 +42,13 @@ Basit doğrusal regresyon; bağımsız değişken (X)ile bağımlı değişken (
 Temel amaç, bağımlı ve bağımsız değişken arasındaki ilişkiyi ifade eden doğrusal fonksiyonu bulmaktır.
 <br>
 ![image](https://user-images.githubusercontent.com/73706248/198124537-f69d719d-1455-45d3-af04-4dcdab8219d5.png)
+<br> <br>
+**Basit doğrusal regresyon kullanımına birkaç örnek:**
+<br>
+Tarım bilimcileri, gübre ve suyun mahsul verimi üzerindeki etkisini ölçmek için genellikle doğrusal regresyon kullanırlar. bilim adamları farklı alanlarda farklı miktarlarda gübre ve su kullanabilir ve bunun mahsul verimini nasıl etkilediğini görebilirler. 
+ <br> <br>
+Araştırmacılar hastalara belirli bir ilacın çeşitli dozajlarını uygulayabilir ve kan basıncının nasıl tepki verdiğini gözlemleyebilir. Yordayıcı değişken olarak dozajı ve yanıt değişkeni olarak kan basıncını kullanan basit bir doğrusal regresyon modeline uyabilirler.
+ 
 
 ### Çoklu Doğrusal Regresyon: 
 Doğrusal basit regresyonun bağımsız değişken sayısı birden fazla olan versiyonudur. Yani çoklu regreson denkleminde yanıt değişkenimiz olan bağımlı değişkeni etkileyen birden fazla bağımsız değişken vardır.
