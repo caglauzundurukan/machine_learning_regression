@@ -57,6 +57,7 @@ Kullanımı ve mantığı basit doğrusal regresyon ile benzerdir. Sadece birden
 Çoklu doğrusal regresyon denklemi aşağıdaki gibidir:
 <br> 
 ![image](https://user-images.githubusercontent.com/73706248/198126326-b82fabb8-7d31-4e6f-9e8c-e0d7a83932f2.png)
+<br>
 **Çoklu doğrusal regresyon kullanımına birkaç örnek:**
 <br> <br>
 Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.br
